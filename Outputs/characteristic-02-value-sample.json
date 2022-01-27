@@ -1,5 +1,5 @@
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-characteristic-reads/SAP_API_Caller/caller.go#L75",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-characteristic-reads/SAP_API_Caller/caller.go#L65",
 	"function": "sap-api-integrations-characteristic-reads/SAP_API_Caller.(*SAPAPICaller).Characteristic",
 	"level": "INFO",
 	"message": [
@@ -23,8 +23,8 @@
 			"DocumentPart": "",
 			"DocumentVersion": "",
 			"ValidityStartDate": "",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"KeyDate": "/Date(1640217600000)/",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"KeyDate": "2022-01-27T09:00:00+09:00",
 			"CharcLastChangedDateTime": "",
 			"to_CharcValueDesc": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcValueForKeyDate(CharcInternalID='1',CharcValuePositionNumber='1')/to_CharcValueDesc"
 		},
@@ -48,11 +48,11 @@
 			"DocumentPart": "",
 			"DocumentVersion": "",
 			"ValidityStartDate": "",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"KeyDate": "/Date(1640217600000)/",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"KeyDate": "2022-01-27T09:00:00+09:00",
 			"CharcLastChangedDateTime": "",
 			"to_CharcValueDesc": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharcValueForKeyDate(CharcInternalID='1',CharcValuePositionNumber='2')/to_CharcValueDesc"
 		}
 	],
-	"time": "2021-12-23T11:22:40.607393+09:00"
+	"time": "2022-01-27T17:26:48+09:00"
 }

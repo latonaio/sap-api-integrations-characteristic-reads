@@ -1,5 +1,5 @@
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-characteristic-reads/SAP_API_Caller/caller.go#L89",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-characteristic-reads/SAP_API_Caller/caller.go#L79",
 	"function": "sap-api-integrations-characteristic-reads/SAP_API_Caller.(*SAPAPICaller).Characteristic",
 	"level": "INFO",
 	"message": [
@@ -12,8 +12,8 @@
 			"CharcValueDescription": "Gruppe-001",
 			"ChangeNumber": "",
 			"ValidityStartDate": "",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"KeyDate": "/Date(1640217600000)/",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"KeyDate": "2022-01-27T09:00:00+09:00",
 			"CharcLastChangedDateTime": ""
 		},
 		{
@@ -25,10 +25,10 @@
 			"CharcValueDescription": "Group-001",
 			"ChangeNumber": "",
 			"ValidityStartDate": "",
-			"ValidityEndDate": "/Date(253402214400000)/",
-			"KeyDate": "/Date(1640217600000)/",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
+			"KeyDate": "2022-01-27T09:00:00+09:00",
 			"CharcLastChangedDateTime": ""
 		}
 	],
-	"time": "2021-12-23T11:22:42.443267+09:00"
+	"time": "2022-01-27T17:26:49+09:00"
 }

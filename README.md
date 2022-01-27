@@ -101,14 +101,14 @@ func (c *SAPAPICaller) AsyncGetCharacteristic(characteristic, charcLanguage, cha
 }
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。    
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。    
 以下の sample.json の例は、SAP の 特性データ が取得された結果の JSON の例です。    
 以下の項目のうち、"Delete_mc" ～ "to_CharacteristicValue" は、/SAP_API_Output_Formatter/type.go 内 の type Characteristic {}による出力結果です。  
-"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-characteristic-reads/SAP_API_Caller/caller.go#L68",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-characteristic-reads/SAP_API_Caller/caller.go#L58",
 	"function": "sap-api-integrations-characteristic-reads/SAP_API_Caller.(*SAPAPICaller).Characteristic",
 	"level": "INFO",
 	"message": [
@@ -139,7 +139,7 @@ func (c *SAPAPICaller) AsyncGetCharacteristic(characteristic, charcLanguage, cha
 			"AdditionalValueIsAllowed": false,
 			"NegativeValueIsAllowed": false,
 			"ValidityStartDate": "",
-			"ValidityEndDate": "/Date(253402214400000)/",
+			"ValidityEndDate": "9999-12-31T09:00:00+09:00",
 			"ChangeNumber": "",
 			"DocumentType": "",
 			"DocNumber": "",
@@ -152,15 +152,15 @@ func (c *SAPAPICaller) AsyncGetCharacteristic(characteristic, charcLanguage, cha
 			"CharcExponentFormat": "0",
 			"CharcEntryIsNotFormatCtrld": false,
 			"CharcTemplateIsDisplayed": false,
-			"CreationDate": "/Date(1466380800000)/",
-			"LastChangeDate": "/Date(1466380800000)/",
+			"CreationDate": "2016-06-20T09:00:00+09:00",
+			"LastChangeDate": "2016-06-20T09:00:00+09:00",
 			"CharcLastChangedDateTime": "",
-			"KeyDate": "/Date(1640217600000)/",
+			"KeyDate": "2022-01-27T09:00:00+09:00",
 			"to_CharacteristicDesc": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharacteristicForKeyDate('1')/to_CharacteristicDesc",
 			"to_CharacteristicReference": "",
 			"to_CharacteristicValue": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CLFN_CHARACTERISTIC_SRV/A_ClfnCharacteristicForKeyDate('1')/to_CharacteristicValue"
 		}
 	],
-	"time": "2021-12-23T11:22:39.679645+09:00"
+	"time": "2022-01-27T17:26:47+09:00"
 }
 ```
